@@ -27,6 +27,10 @@ li {
 .gallery-item {
 	position: relative;
 	padding: 5px;
+	z-index: 200;
+}
+.gallery-item:hover {
+	opacity: .8;
 }
 .nav {
 	text-transform: uppercase;
@@ -160,6 +164,17 @@ footer {
 .post-title {
 	color: #fff;
 	text-transform: uppercase;
+}
+.form-contact {
+	float: left;
+	display: block;
+	position: relative;
+}
+.nav-arrow {
+	opacity: .6;
+}
+.nav-arrow:hover {
+	opacity: 1;
 }
 
 @media (max-width: 1000px) {
