@@ -27,7 +27,7 @@ li {
 .gallery-item {
 	position: relative;
 	padding: 5px;
-	z-index: 200;
+
 }
 .gallery-item:hover {
 	opacity: .8;
@@ -48,7 +48,6 @@ li {
 	height: 100%;
 	background-color: #D95B43;
 	position: relative;
-	z-index: -20;
 }
 
 .content-area-3 {
@@ -56,7 +55,6 @@ li {
 	height: 100%;
 	background-color: #542437;
 	position: relative;
-	z-index: -20;
 }
 
 .navbar {
@@ -101,10 +99,7 @@ footer {
 	margin-top: 15px;
 	float: right;
 }
-.slideshow {
-	z-index: 200;
-	color: #fff;
-}
+
 .footer-nav li {
 	display: inline;
 	padding: 0px 10px;
@@ -121,7 +116,6 @@ footer {
 .next {
 	color: #fff;
 	position: relative;
-	z-index: 400;
 	float: right;
 	background-color: gray;
 	padding: 25px 30px;
@@ -134,7 +128,6 @@ footer {
 .previous {
 	color: #fff;
 	position: relative;
-	z-index: 400;
 	float: left;
 	background-color: gray;
 	padding: 25px 30px;
