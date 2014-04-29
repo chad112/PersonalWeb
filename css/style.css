@@ -163,11 +163,20 @@ footer {
 	display: block;
 	position: relative;
 }
-.nav-arrow {
-	opacity: .6;
-}
-.nav-arrow:hover {
-	opacity: 1;
+.nav-arrow-left {
+	padding: 25px;
+	position: relative;
+	float: left;
+	margin-bottom: -100px;
+	z-index: 100;
+	}
+.nav-arrow-right {
+	right: 1px;
+	position: relative;
+	padding: 24px;
+	float: right;
+	margin-bottom: -100px;
+	z-index: 100;
 }
 
 @media (max-width: 1000px) {
