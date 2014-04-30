@@ -7,6 +7,12 @@ body {
 form {
 	font-size: 30px;
 }
+
+.about-img {
+	width: 500px;
+	margin: 0 auto;
+	max-width: 100%;
+}
 .blog-container {
 	background-color: #fff;
 	color: black;
@@ -32,6 +38,11 @@ form {
 	position: relative;
 	padding: 5px;
 
+}
+.blog-content {
+	padding: 20px;
+	font-family: helvetica;
+	font-size: 18px;
 }
 .gallery-item:hover {
 	opacity: .8;
