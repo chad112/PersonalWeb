@@ -7,7 +7,13 @@ body {
 form {
 	font-size: 30px;
 }
-
+#down-arrow {
+	width: 60px;
+	padding-bottom: 20px;
+}
+#down-arrow:hover {
+	opacity: .8;
+}
 .about-img {
 	width: 500px;
 	margin: 0 auto;
@@ -78,7 +84,9 @@ form {
 	width: 100%;
 	z-index: 500;
 }
-
+.splash-img {
+	width: 100%;
+}
 .splash_img {
 	max-width: 921px;
 	width: 55%;
