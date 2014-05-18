@@ -14,13 +14,15 @@ form {
 	font-size: 30px;
 }
 .home-nav {
-	padding: 8px;
 	opacity: .6;
-	width: 24%;
-	min-width: 100px;
+	width: 100%;
 }
 .home-nav:hover {
 	opacity: 1;
+	transition: background 0.3s ease-out; /* explorer 10 */
+    -webkit-transition: background 0.3s ease-out; /* chrome & safari */
+    -moz-transition: background 0.3 ease-out; /* firefox */
+    -o-transition: background 0.3 ease-out; /* opera */
 }
 #down-arrow {
 	width: 60px;
