@@ -30,7 +30,8 @@ $headers = 'From: '.$email_from."\r\n".
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="/css/style.css">
-<div class="container content-area-3">
+<body class="content-area-2">
+<div class="container">
         <div class="row">
             <div class="col-xs-10 col-xs-offset-1 blog-container">
         <div class="col-xs-6 col-xs-offset-3 text-center">
@@ -51,4 +52,5 @@ $headers = 'From: '.$email_from."\r\n".
         </div>
     </div>
     </div>
+</body>
 <?php ?>

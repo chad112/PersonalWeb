@@ -14,11 +14,11 @@ form {
 	font-size: 30px;
 }
 .home-nav {
-	opacity: .6;
+	opacity: 1;
 	width: 100%;
 }
 .home-nav:hover {
-	opacity: 1;
+	opacity: .6;
 	transition: background 0.3s ease-out; /* explorer 10 */
     -webkit-transition: background 0.3s ease-out; /* chrome & safari */
     -moz-transition: background 0.3 ease-out; /* firefox */
