@@ -69,6 +69,16 @@ input:focus {
 	border:1px solid #04A4CC;
 }
 
+.nav li a {
+	text-decoration: none;
+	font-size: 30px;
+	display: inline;
+}
+
+.nav li {
+	list-style-type: none;
+}
+
 /*------------------------------------*\
     STRUCTURE
 \*------------------------------------*/
