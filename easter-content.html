@@ -1,0 +1,28 @@
+<!doctype html>
+<div class="container" style="background-color: #fff;">
+    <div class="row">
+      <a id="left-arrow"class="nav-arrow-left" href="#"> <img src="img/arrow-left.png"></a>
+      <a id="right-arrow"class="nav-arrow-right" href="#"> <img src="img/arrow-right.png"></a>
+  			<div class="col-xs-12 text-center">
+          <h1 class="post-title" style="color: black;"> Easter Party </h1>
+            <p class="post-description"> Easter party things, you know.</p>
+              <hr>
+               	<img class="main-post"src="img/k1-party-web.png">
+              	<img class="main-post"src="img/easter-card.png">
+        </div>
+    </div>
+  </div>
+ </div>
+     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+
+             <script>
+
+     $(document).on('click','.nav-arrow-right',function() {
+      console.log('click');
+      $("#main-content").load("miraculous-content.html");
+   });
+     $(document).on('click','.nav-arrow-left',function() {
+      console.log('click');
+      $("#main-content").load("transform-content.html");
+   });
+</script>
