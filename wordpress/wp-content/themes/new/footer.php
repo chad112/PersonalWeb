@@ -1,12 +1,10 @@
-<div class="clear"></div>
-</div>
- <footer id="footer">
+<footer>
   <h4 class="copyright-footer"> &copy; Chad Schaub Graphic Design </h4>
       <ul class="footer-nav">
-        <li><a href="#"> About </a></li>
-        <li><a href="#"> Contact </a></li>
-        <li><a href="#"> Hire Me </a></li>
-        <li><a href="#"> Home </a></li>
+        <li><a href="gallery.html"> Work </a> </li>
+        <li><a href="about.html"> About </a></li>
+        <li><a href="contact.html"> Contact </a></li>
+        <li><a href="index.html"> Home </a></li>
       </ul>
 
     <div class="sm-group">
@@ -16,9 +14,3 @@
     </div>
 
     </footer>
-</div>
-</footer>
-</div>
-<?php wp_footer(); ?>
-</body>
-</html>
