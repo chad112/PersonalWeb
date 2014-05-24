@@ -7,7 +7,7 @@
 		<link href="//www.google-analytics.com" rel="dns-prefetch">
   		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="/style.css">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/favicon.ico" rel="shortcut icon">
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
 
@@ -26,25 +26,18 @@
         </script>
 
 	</head>
-	<body <?php body_class(); ?>>
+	<body class="content-area-2" <?php body_class(); ?>>
 
 		<!-- wrapper -->
-		<div class="wrapper">
+		<div class="container" style="background-color: #fff;">
 
 			<!-- header -->
 			<header class="header clear" role="banner">
 
 					<!-- logo -->
-					<div class="logo">
-						<a href="<?php echo home_url(); ?>">
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="Logo" class="logo-img">
-						</a>
-					</div>
 					<!-- /logo -->
 
 					<!-- nav -->
-					<nav class="nav" role="navigation">
 						<nav class="navbar navbar-default" role="navigation">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
@@ -55,20 +48,17 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html"><img class="logo"src="img/logo-text_03.png"></a>
+      <a href="index.php"><img src="<?php echo get_template_directory_uri(); ?>/img/logo-simple.png" alt="Logo" class="logo"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <?php wp_list_pages(); ?>
+        <?php html5blank_nav(); ?>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
 </nav>
-						<?php html5blank_nav(); ?>
-
-					</nav>
 					<!-- /nav -->
 
 			</header>

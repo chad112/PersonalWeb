@@ -1,8 +1,5 @@
 <?php get_header(); ?>
 <body class="content-area-2">
-
-
-
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-8 col-xs-offset-2 text-center" style="background-color: #fff;">
