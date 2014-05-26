@@ -10,6 +10,15 @@ body {
 	height: 100%;
 	width: 100%;
 }
+
+#background {
+    width: 100%;
+    height: 100%;
+    background: url('http://i.imgur.com/GySvQ.png');
+    opacity: .5;
+    position: fixed;
+}
+
 form {
 	font-size: 30px;
 }

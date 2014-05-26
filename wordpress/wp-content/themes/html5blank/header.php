@@ -27,6 +27,7 @@
 
 	</head>
 	<body class="content-area-2" <?php body_class(); ?>>
+    <div id="background"></div>
 
 		<!-- wrapper -->
 		<div class="container" style="background-color: #fff;">

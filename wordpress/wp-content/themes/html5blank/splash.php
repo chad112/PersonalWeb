@@ -12,6 +12,7 @@ Template Name: Splash
 </head>
 
 <body class="content-area-2" <?php body_class(); ?>>
+  <div id="background"></div>
 	<div class="container-fluid">
 		<div class="row">
 			<div class="col-xs-8 col-xs-offset-2 text-center" style="background-color: #fff;">
