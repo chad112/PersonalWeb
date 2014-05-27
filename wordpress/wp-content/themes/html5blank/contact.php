@@ -4,21 +4,16 @@ Template Name: Contact
 */
 ?-->
 
-<head>
-  <title> Chad Schaub Graphic Design </title>
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">>
-</head>
+<?php get_header(); ?>
 <body class="content-area-2 <php body_class();?>">
 
 
 <div class="layout-fix">
   </div>
-	<div class="container">
-		<div class="row">
-			<div class="col-xs-10 col-xs-offset-1"style="background-color: #fff;">
-        <h1 class="text-center"> Contact Me! </h1>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-10 col-xs-offset-1"style="background-color: #fff;">
+        <h1 class="text-center" style="font-size: 45px;"> Contact Me! </h1>
         <hr>
         <div class="col-xs-6 col-xs-offset-3 text-center">
           <form role="form" method="post" action="php/contact-form.php">
@@ -41,8 +36,8 @@ Template Name: Contact
         </div>
 
      
-		</div>
-	</div>
+    </div>
+  </div>
   </div>
 
   <?php get_footer(); ?>
@@ -52,13 +47,3 @@ Template Name: Contact
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 
 </body>
-
-
-
-
-
-
-
-
-
-
