@@ -200,9 +200,39 @@ footer {
 .search-submit {
 	display: none;
 }
+.post-8 p{
+	padding: 0 40px;
+}
 
+.index-item {
+	position: relative;
+	padding: 20px;
+	width: 49%;
+	min-width: 200px;
+}
+.post h1 {
+	font-size: 60px;
+	margin-bottom: 25px;
+	text-align: center;
+	border-bottom: 1px solid #4a4a4a;
+	padding-bottom: 15px;
+}
 
+.post {
+	padding: 0 20px;
+}
 
+.date {
+	display: none;
+}
+
+.author {
+	display: none;
+}
+
+.comments a{
+	display: none;
+}
 /*------------------------------------*\
     COMMENT FORM
 \*------------------------------------*/

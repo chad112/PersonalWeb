@@ -40,9 +40,9 @@ Template Name: Splash
   </div>
   <div class="col-xs-10 col-xs-offset-1">
     <h2> Here's some recent work </h2>
-    <a id="post1" href="#"><img class="index-item"src="img/miraculous_thumb.jpg"></a>
-       <a id="post2" href="#"><img class="index-item"src="img/transform_thumb.jpg"></a>
-       <a id="post3" href="#"><img class="index-item"src="img/easter-party-thumb.png"></a>
+    <a href="#"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/easter-party-thumb.png"></a>
+       <a href="#"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/transform_thumb.jpg"></a>
+       <a href="#"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/miraculous_thumb.jpg"></a>
   </div>
   </div>
 </div>
