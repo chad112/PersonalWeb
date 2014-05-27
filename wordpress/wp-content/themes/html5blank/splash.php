@@ -13,7 +13,7 @@ Template Name: Splash
 
 <body class="content-area-2" <?php body_class(); ?>>
   <div id="background"></div>
-	<div class="container-fluid">
+	<div class="container-fluid splash">
 		<div class="row">
 			<div class="col-xs-8 col-xs-offset-2 text-center" style="background-color: #fff;">
         <h2 class="text-center" style="font-size: 60px; margin-bottom: -20px;"> Welcome To </h2>
@@ -31,7 +31,7 @@ Template Name: Splash
     <a href="http://chadschaub.scotch/wordpress/?p=20"><img src="<?php echo get_template_directory_uri(); ?>/img/contact.png" class="home-nav" alt="Link to Contact"></a>
     <h3> Contact </h3>
   </div><div class="col-sm-3 text-center">
-    <a href="http://chadschaub.scotch/wordpress/?p=22"><img src="<?php echo get_template_directory_uri(); ?>/img/blog.png" class="home-nav" alt="Link to Blog"></a>
+    <a href="http://chadschaub.scotch/wordpress/?cat=4"><img src="<?php echo get_template_directory_uri(); ?>/img/blog.png" class="home-nav" alt="Link to Blog"></a>
     <h3> Blog </h3>
   </div>
   <div class="col-xs-12">
