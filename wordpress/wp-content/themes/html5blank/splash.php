@@ -40,9 +40,10 @@ Template Name: Splash
   </div>
   <div class="col-xs-10 col-xs-offset-1">
     <h2> Here's some recent work </h2>
-    <a href="#"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/easter-party-thumb.png"></a>
-       <a href="#"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/transform_thumb.jpg"></a>
-       <a href="#"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/miraculous_thumb.jpg"></a>
+    <a href="http://chadschaub.scotch/wordpress/?p=93"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/pov-thumb.png"></a>
+    <a href="http://chadschaub.scotch/wordpress/?p=152"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/m83-poster-thumb.png"></a>
+    <a href="http://chadschaub.scotch/wordpress/?p=70"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/miraculous_thumb.jpg"></a>
+    <a href="http://chadschaub.scotch/wordpress/?p=144"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/Sign-up-here-thumb.png"></a>
   </div>
   </div>
 </div>

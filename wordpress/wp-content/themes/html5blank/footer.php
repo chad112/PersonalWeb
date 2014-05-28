@@ -2,10 +2,7 @@
 			<footer class="footer" role="contentinfo">
   <h4 class="copyright-footer"> &copy; Chad Schaub Graphic Design </h4>
       <ul class="footer-nav">
-        <li><a href="/gallery.html"> Work </a> </li>
-        <li><a href="about.html"> About </a></li>
-        <li><a href="contact.html"> Contact </a></li>
-        <li><a href="index.html"> Home </a></li>
+        <?php html5blank_nav(); ?>
       </ul>
 
     <div class="sm-group">
