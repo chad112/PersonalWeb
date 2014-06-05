@@ -21,17 +21,17 @@ Template Name: Splash
     <h2> What would you like to see? </h2>
     <hr>
     <div class="col-sm-3 text-center">
-    <a href="http://chadschaub.scotch/wordpress/?p=4"><img src="<?php echo get_template_directory_uri(); ?>/img/work.png" class="home-nav" alt="Link to Gallery"></a>
+    <a href="http://chadschaub.com/?p=4"><img src="<?php echo get_template_directory_uri(); ?>/img/work.png" class="home-nav" alt="Link to Gallery"></a>
     <h3> Work </h3>
     </div>
    <div class="col-sm-3 text-center">
-    <a href="http://chadschaub.scotch/wordpress/?p=8"><img src="<?php echo get_template_directory_uri(); ?>/img/about.png" class="home-nav" alt="Link to About"></a>
+    <a href="http://chadschaub.com/?p=8"><img src="<?php echo get_template_directory_uri(); ?>/img/about.png" class="home-nav" alt="Link to About"></a>
     <h3> About </h3>
   </div><div class="col-sm-3 text-center">
-    <a href="http://chadschaub.scotch/wordpress/?p=20"><img src="<?php echo get_template_directory_uri(); ?>/img/contact.png" class="home-nav" alt="Link to Contact"></a>
+    <a href="http://chadschaub.com/?p=20"><img src="<?php echo get_template_directory_uri(); ?>/img/contact.png" class="home-nav" alt="Link to Contact"></a>
     <h3> Contact </h3>
   </div><div class="col-sm-3 text-center">
-    <a href="http://chadschaub.scotch/wordpress/?cat=4"><img src="<?php echo get_template_directory_uri(); ?>/img/blog.png" class="home-nav" alt="Link to Blog"></a>
+    <a href="http://chadschaub.com/?cat=4"><img src="<?php echo get_template_directory_uri(); ?>/img/blog.png" class="home-nav" alt="Link to Blog"></a>
     <h3> Blog </h3>
   </div>
   <div class="col-xs-12">
@@ -40,10 +40,10 @@ Template Name: Splash
   </div>
   <div class="col-xs-10 col-xs-offset-1">
     <h2> Here's some recent work </h2>
-    <a href="http://chadschaub.scotch/wordpress/?p=93"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/pov-thumb.png"></a>
-    <a href="http://chadschaub.scotch/wordpress/?p=152"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/m83-poster-thumb.png"></a>
-    <a href="http://chadschaub.scotch/wordpress/?p=70"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/miraculous_thumb.jpg"></a>
-    <a href="http://chadschaub.scotch/wordpress/?p=144"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/Sign-up-here-thumb.png"></a>
+    <a href="http://chadschaub.com/?p=93"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/pov-thumb.png"></a>
+    <a href="http://chadschaub.com/?p=152"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/m83-poster-thumb.png"></a>
+    <a href="http://chadschaub.com/?p=70"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/miraculous_thumb.jpg"></a>
+    <a href="http://chadschaub.com/?p=144"><img class="index-item"src="<?php echo get_template_directory_uri(); ?>/img/Sign-up-here-thumb.png"></a>
   </div>
   </div>
 </div>
